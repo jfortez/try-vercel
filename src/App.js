@@ -1,6 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
-
+import logo from "./logo.svg";
+import "./App.css";
+import { Button } from "@bsoft-solution/base-ui.ui.button";
 function App() {
   return (
     <div className="App">
@@ -15,8 +15,10 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Bit.cloud components
         </a>
+        <br />
+        <Button textButton="Button" variantName="success" />
       </header>
     </div>
   );
